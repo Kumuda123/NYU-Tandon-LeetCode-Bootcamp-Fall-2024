@@ -1,4 +1,4 @@
-Week 1: Lists, Arrays, and Sorting
+# Week 1: Lists, Arrays, and Sorting
 
 Welcome to the first week of our LeetCode Bootcamp. This week, we will dive into Lists, Arrays, and Sorting in Python, alongside introducing powerful problem-solving patterns like the Two-Pointer Approach and the Sliding Window Technique.
 
