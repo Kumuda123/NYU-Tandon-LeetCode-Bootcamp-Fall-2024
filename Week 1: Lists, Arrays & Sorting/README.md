@@ -18,3 +18,10 @@ Please review the following resources:
 - [Python.org: Sequence Types - list, tuple, range](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 - [Python.org: Sorting HOW TO](https://docs.python.org/3/howto/sorting.html#)
 - [Real Python: Python Lists and Tuples](https://realpython.com/python-lists-tuples/) 
+
+### 3. Pattern Introduction
+
+- Two-Pointer Approach
+![alt text](./TwoPointerApproach.png)
+- Sliding Window Technique
+![alt text](./SlidingWindowApproach.png)
