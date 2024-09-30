@@ -25,3 +25,11 @@ Please review the following resources:
 ![alt text](./TwoPointerApproach.png)
 - Sliding Window Technique
 ![alt text](./SlidingWindowApproach.png)
+
+
+### 4. Problems Covered This Week
+
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
+- [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
