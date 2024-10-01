@@ -33,3 +33,10 @@ Please review the following resources:
 - [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
+
+### 5. Homework Problems 
+
+- [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+- [Products of array discluding self](https://leetcode.com/problems/product-of-array-except-self/description/)
+- [Sort Colors](https://leetcode.com/problems/sort-colors/description/)
+
