@@ -20,5 +20,4 @@ Please review the following resources:
 
 - Hash Map Pattern
 ![alt text](./HashMap.png)
-- Revisit Sliding Window Technique
-[here](./SlidingWindowApproach.png)
+
