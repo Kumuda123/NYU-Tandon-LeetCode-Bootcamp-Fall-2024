@@ -10,11 +10,11 @@ Please review the following resources:
 
 - [Exercism: Strings](https://exercism.org/tracks/python/concepts/strings)
 - [Python.org: String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
+- [Exercism: Sets](https://exercism.org/tracks/python/concepts/sets)
 - [Exercism: Dicts](https://exercism.org/tracks/python/concepts/dicts)
 - [Exercism: Dicts Methods](https://exercism.org/tracks/python/concepts/dict-methods)
 - [Python.org: Mapping Types](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
 - [Python.org: Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-- [Python.org: Collections](https://docs.python.org/3/library/collections.html#)
 
  ### 2. Pattern Introduction
 
