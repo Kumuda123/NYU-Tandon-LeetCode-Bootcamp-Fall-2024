@@ -40,7 +40,7 @@ class Solution:
 # Space complexity: O(1) since we only use a constant amount of extra space for the pointers.
 ```
 
-- [Reverse linked list](https://leetcode.com/problems/reorder-list/description/)(Medium)
+- [Reverse linked list](https://leetcode.com/problems/reorder-list/description/)
 
 ```python
 class Solution:
