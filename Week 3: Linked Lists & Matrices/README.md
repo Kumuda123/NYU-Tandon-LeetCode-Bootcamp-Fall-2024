@@ -23,46 +23,53 @@ Please review the following resources:
 
 ### 3. Problems Covered This Week
 
-- [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)(Easy)
+- [Middle of linked list](https://leetcode.com/problems/middle-of-the-linked-list/description/)
 
 ```python
 class Solution:
-    def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        if not head or not head.next:
-            return True
-
-        # Step 1: Find the middle of the linked list
-        slow = fast = head
-        while fast and fast.next:
+    def middleNode(self, head):
+        fast = head
+        slow = head
+        while fast and fast.next is not None:
             slow = slow.next
             fast = fast.next.next
-
-        # Step 2: Reverse the second half of the linked list
-        prev = None
-        curr = slow
-        while curr:
-            next_node = curr.next
-            curr.next = prev
-            prev = curr
-            curr = next_node
-
-        # Step 3: Compare the first half with the reversed second half
-        first_half = head
-        second_half = prev
-        while second_half:
-            if first_half.val != second_half.val:
-                return False
-            first_half = first_half.next
-            second_half = second_half.next
-
-        return True
+        return slow
 
 # Time complexity: O(n), where n is the number of nodes in the linked list.
 
 # Space complexity: O(1) since we only use a constant amount of extra space for the pointers.
 ```
 
-- [Reorder List](https://leetcode.com/problems/reorder-list/description/)(Medium)
+- [Reverse linked list](https://leetcode.com/problems/reorder-list/description/)(Medium)
+
+```python
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+            # Initialize three pointers: curr, prev and next
+            curr = head
+            prev = None
+
+            # Traverse all the nodes of Linked List
+            while curr is not None:
+                # Store next
+                next_node = curr.next
+
+                # Reverse current node's next pointer
+                curr.next = prev
+
+                # Move pointers one position ahead
+                prev = curr
+                curr = next_node
+
+            # Return the head of reversed linked list
+            return prev
+
+# Time complexity: O(n), where n is the number of nodes in the linked list.
+
+# Space complexity: O(1) since we only use a constant amount of extra space for the pointers.
+```
+
+- [Reorder List](https://leetcode.com/problems/reorder-list/description/)
 
 ```python
 class Solution:
@@ -95,79 +102,63 @@ class Solution:
 # Time complexity: O(n), where n is the number of nodes in the linked list.
 
 # Space complexity: O(1) since we only use a constant amount of extra space for the pointers.
+        
+
 ```
 
-- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)(Medium)
+- [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 
 ```python
-class Solution:
-    def setZeroes(self, matrix: List[List[int]]) -> None:
-        m = len(matrix)
-        n = len(matrix[0])
+class Solution(object):
+    def isValidSudoku(self, board):
+        cols = collections.defaultdict(set)
+        rows = collections.defaultdict(set)
+        squares = collections.defaultdict(set)
         
-        # Flag to check if the first column needs to be set to zero
-        first_col = False
-        
-        # Use the first row and first column to store the zero information
-        for i in range(m):
-            if matrix[i][0] == 0:
-                first_col = True
-            for j in range(1, n):
-                if matrix[i][j] == 0:
-                    matrix[i][0] = matrix[0][j] = 0
-        
-        # Set the elements to zero based on the stored information
-        for i in range(1, m):
-            for j in range(1, n):
-                if matrix[i][0] == 0 or matrix[0][j] == 0:
-                    matrix[i][j] = 0
-        
-        # Set the first row to zero if necessary
-        if matrix[0][0] == 0:
-            for j in range(n):
-                matrix[0][j] = 0
-        
-        # Set the first column to zero if necessary
-        if first_col:
-            for i in range(m):
-                matrix[i][0] = 0
-        
-        return matrix
-
-# Time complexity: O(m * n), where m and n are the number of rows and columns in the matrix, respectively.
-
-# Space complexity: O(1) 
+        for r in range(9):
+            for c in range(9):
+                if board[r][c] == ".":
+                    continue
+                if (board[r][c] in rows[r] or 
+                    board[r][c] in cols[c] or 
+                    board[r][c] in squares[(r//3,c//3)]):
+                    return False
+                cols[c].add(board[r][c])
+                rows[r].add(board[r][c])
+                squares[(r//3,c//3)].add(board[r][c])
+        return True
 ```
 
-- [Rotate Image](https://leetcode.com/problems/rotate-image/description/)(Medium)
+- [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
 
 ```python
-class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+class Solution(object):
+    def rotate(self, matrix):
+        self.transpose(matrix)
+        self.reflect(matrix)
+
+    def transpose(self, matrix):
         n = len(matrix)
-        
-        # Step 1: Transpose the matrix
         for i in range(n):
-            for j in range(i, n):
-                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-        
-        # Step 2: Reverse each row
+            for j in range(i + 1, n):
+                matrix[j][i], matrix[i][j] = matrix[i][j], matrix[j][i]
+
+    def reflect(self, matrix):
+        n = len(matrix)
         for i in range(n):
-            matrix[i] = matrix[i][::-1]
-        
-        return matrix
-
-# Time complexity:  O(n), where n is the size of the matrix.
-
-# Space complexity: O(1)
+            for j in range(n // 2):
+                matrix[i][j], matrix[i][-j - 1] = (
+                    matrix[i][-j - 1],
+                    matrix[i][j],
+                )
 ```
 
 ## Take-Home Problems
 
 To help solidify your understanding and practice further, here are some take-home problems:
 
-1. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)(Easy)
-2. [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)(Hard)
-3. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)(Medium)
+1. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
+3. [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
 
 Good luck, and happy coding!
