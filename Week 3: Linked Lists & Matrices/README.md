@@ -15,11 +15,11 @@ Please review the following resources:
 
 ### 2. Pattern Introduction
 
-- Fast and Slow Pointers ![Fast and Slow Pointers](./assets/FastSlowPointers.png)
+- Fast and Slow Pointers ![Fast and Slow Pointers](./FastSlowPointers.png)
 
-- In-place Reversal of a Linked List ![In-place Reversal of a Linked List](./assets/InPlaceReversal.png)
+- In-place Reversal of a Linked List ![In-place Reversal of a Linked List](./InPlaceReversal.png)
 
-- Matrices ![Matrices](./assets/Matrices.png)
+- Matrices ![Matrices](./Matrices.png)
 
 ### 3. Problems Covered This Week
 
