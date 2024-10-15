@@ -159,6 +159,6 @@ To help solidify your understanding and practice further, here are some take-hom
 
 1. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
-3. [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+3. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
 
 Good luck, and happy coding!
