@@ -158,7 +158,7 @@ class Solution(object):
 To help solidify your understanding and practice further, here are some take-home problems:
 
 1. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
-2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
+2. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 3. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
 
 Good luck, and happy coding!
