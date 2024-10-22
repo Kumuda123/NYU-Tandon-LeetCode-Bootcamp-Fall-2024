@@ -27,7 +27,7 @@ Please review the following resources:
 To help solidify your understanding and practice further, here are some take-home problems:
 
 1. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
-2. [Number of islands](https://leetcode.com/problems/number-of-islands/description/)
+2. [Decode String](https://leetcode.com/problems/decode-string/description/)
 3. [Number of people aware of a secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/description/)
 
 Good luck, and happy coding! 
