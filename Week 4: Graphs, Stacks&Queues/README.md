@@ -21,6 +21,7 @@ Please review the following resources:
 3. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 4. [Daily temperatures](https://leetcode.com/problems/daily-temperatures/)
 5. [Implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues/)
+6. [Reveal Cards in Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/description/?envType=problem-list-v2&envId=queue)
 
 ## Take-Home Problems
 To help solidify your understanding and practice further, here are some take-home problems:
