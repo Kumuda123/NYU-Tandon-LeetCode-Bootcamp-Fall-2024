@@ -18,4 +18,4 @@ Please review the following resources:
 
 1. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 2. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/?envType=problem-list-v2&envId=heap-priority-queue)
-3. [Word Break](https://leetcode.com/problems/word-break/editorial/?envType=problem-list-v2&envId=trie) (Use Trie to solve)
+3. [Word Break](https://leetcode.com/problems/word-break/editorial/?envType=problem-list-v2&envId=trie) (Optional)
