@@ -18,8 +18,8 @@ BFS vs DFS ![alt text](./bfs.png)
 
 To help solidify your understanding and practice further, here are some take-home problems:
 
-1. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)(Medium)
-2. [Longest increasing path in a matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)(Hard)
+1. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+2. [Rotting oranges](https://leetcode.com/problems/rotting-oranges/description/)
 3. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)(Medium)
 
 Good luck, and happy coding!
