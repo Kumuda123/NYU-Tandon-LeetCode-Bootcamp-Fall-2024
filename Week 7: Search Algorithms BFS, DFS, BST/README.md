@@ -4,7 +4,7 @@ Welcome to the seventh week of our LeetCode Bootcamp. This week, we will dive in
 
 ## Class Agenda (2 Hours)
 
-### 1. Python Overview of Search Algorithms: Binary Search, DFS, BFS, BST
+### 1. Python Overview of Search Algorithms: Binary Search, DFS, BFS
 
 Please review the following resources:
 
