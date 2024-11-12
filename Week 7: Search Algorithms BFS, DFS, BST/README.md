@@ -1,6 +1,6 @@
-# Week 6: Search Algorithms: Binary Search, DFS, BFS, BST
+# Week 7: Search Algorithms: Binary Search, DFS, BFS
 
-Welcome to the sixth week of our LeetCode Bootcamp. This week, we will dive into Search Algorithms DFS, BFS, BST in Python, alongside introducing powerful problem-solving patterns.
+Welcome to the seventh week of our LeetCode Bootcamp. This week, we will dive into Search Algorithms DFS, BFS, BST in Python, alongside introducing powerful problem-solving patterns.
 
 ## Class Agenda (2 Hours)
 
