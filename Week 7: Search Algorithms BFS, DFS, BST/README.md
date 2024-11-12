@@ -20,6 +20,6 @@ To help solidify your understanding and practice further, here are some take-hom
 
 1. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
 2. [Rotting oranges](https://leetcode.com/problems/rotting-oranges/description/)
-3. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)(Medium)
+3. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
 
 Good luck, and happy coding!
