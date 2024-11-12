@@ -11,3 +11,5 @@ Please review the following resources:
 - [Programiz: Binary Search](https://www.programiz.com/dsa/binary-search)
 - [Programiz: DFS](https://www.programiz.com/dsa/graph-dfs)
 - [Programiz: BFS](https://www.programiz.com/dsa/graph-bfs)
+
+BFS vs DFS ![alt text](./bfs.png)
