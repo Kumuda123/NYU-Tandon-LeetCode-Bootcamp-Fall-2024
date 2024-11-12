@@ -13,3 +13,13 @@ Please review the following resources:
 - [Programiz: BFS](https://www.programiz.com/dsa/graph-bfs)
 
 BFS vs DFS ![alt text](./bfs.png)
+
+## Take-Home Problems
+
+To help solidify your understanding and practice further, here are some take-home problems:
+
+1. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)(Medium)
+2. [Longest increasing path in a matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)(Hard)
+3. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)(Medium)
+
+Good luck, and happy coding!
