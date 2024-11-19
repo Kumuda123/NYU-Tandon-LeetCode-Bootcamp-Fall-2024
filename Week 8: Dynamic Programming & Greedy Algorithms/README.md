@@ -1,4 +1,4 @@
-# Week 7: Dynamic Programming & Greedy Algorithms
+# Week 8: Dynamic Programming & Greedy Algorithms
 
 Welcome to the final week of our LeetCode Bootcamp. This week, we will dive into Dynamic Programming & Greedy Algorithms in Python, alongside introducing powerful problem-solving patterns.
 
