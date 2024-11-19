@@ -14,9 +14,9 @@ Please review the following resources:
 
 ### 2. Pattern Introduction
 
-- Greedy Algorithm ![alt text](./assets/Greedy.png)
-- Dynamic Programming ![alt text](./assets/DP.png)
-- Backtracking ![alt text](./assets/Backtracking.png)
+- Greedy Algorithm ![alt text](./Greedy.png)
+- Dynamic Programming ![alt text](./DP.png)
+- Backtracking ![alt text](./Backtracking.png)
   
 
 ## Take-Home Problems
